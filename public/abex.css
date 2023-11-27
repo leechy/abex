@@ -1,0 +1,51 @@
+body {
+  background-color: #f4fff4;
+  font-family: 'Sofia Sans', sans-serif;
+  color: #064A2A;
+  margin: 0;
+  padding: 42px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  width: 130px;
+  margin-right: 12px;
+}
+
+.company-name {
+  margin: 0;
+}
+
+.contacts {
+  text-align: right;
+}
+
+.contacts a {
+  color: #064A2A;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 28px;
+}
+.contacts a:hover {
+  text-decoration: underline;
+}

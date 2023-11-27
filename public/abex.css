@@ -81,11 +81,13 @@ main {
 
 .illustration {
   position: relative;
+  align-self: flex-start;
+  margin-bottom: 30px;
+
   max-width: 300px;
   box-shadow: 0 4px 8px #064A2A;
   border-radius: 8px;
   overflow: hidden;
-  margin-bottom: 30px;
 }
 .illustration img {
   display: block;
@@ -159,7 +161,22 @@ table thead th {
   padding-bottom: 12px;
 }
 table td {
+  width: 25%;
   font-size: 24px;
   text-align: center;
   vertical-align: middle;
+}
+
+summary {
+  margin-top: 12px;
+}
+
+
+footer {
+  padding: 80px 0 80px 0;
+  text-align: center;
+}
+footer p {
+  margin: 0 0 6px 0;
+  font-weight: bold;
 }

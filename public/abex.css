@@ -26,6 +26,25 @@ header {
   flex-direction: row;
   align-items: center;
 }
+@media screen and (max-width: 850px) {
+  .title {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .title-extension {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 26px;
+  }
+  .contacts {
+    padding-top: 12px;
+    width: 100%;
+  }
+}
 
 .logo {
   width: 130px;

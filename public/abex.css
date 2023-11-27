@@ -57,7 +57,8 @@ main {
 
 .intro,
 .technology,
-.output-gases {
+.output-gases,
+.benefit {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -67,7 +68,8 @@ main {
   margin-bottom: 80px;
 }
 
-.technology {
+.technology,
+.benefit {
   flex-direction: row-reverse;
 }
 
@@ -178,5 +180,11 @@ footer {
 }
 footer p {
   margin: 0 0 6px 0;
-  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+footer a {
+  font-weight: 400;
+  color: #064A2A;
+  text-decoration: none;
 }

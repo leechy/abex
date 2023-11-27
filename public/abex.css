@@ -49,3 +49,117 @@ header {
 .contacts a:hover {
   text-decoration: underline;
 }
+
+main {
+  margin: 60px auto;
+  max-width: 1020px;
+}
+
+.intro,
+.technology,
+.output-gases {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  justify-content: space-around;
+  align-items: stretch;
+  margin-bottom: 80px;
+}
+
+.technology {
+  flex-direction: row-reverse;
+}
+
+.intro .content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.illustration {
+  position: relative;
+  max-width: 300px;
+  box-shadow: 0 4px 8px #064A2A;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.illustration img {
+  display: block;
+  width: 100%;
+}
+.illustration img + img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  animation: 3s fade-in 0s forwards;
+  transition: opacity 1s ease-in-out;
+}
+.illustration img + img:hover {
+  opacity: 0;
+  animation: none;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.content {
+  max-width: 580px;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: bold;
+  margin: 0 0 30px;
+  padding: 0;
+}
+
+p {
+  margin: 0 0 30px;
+  font-size: 20px;
+  line-height: 36px;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  font-size: 20px;
+  line-height: 36px;
+  padding-left: 22px;
+}
+ul li {
+  margin-bottom: 22px;
+}
+
+table {
+  width: 100%;
+}
+table th {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: middle;
+}
+table thead th {
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  padding-bottom: 12px;
+}
+table td {
+  font-size: 24px;
+  text-align: center;
+  vertical-align: middle;
+}

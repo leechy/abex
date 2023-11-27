@@ -26,17 +26,17 @@ header {
   flex-direction: row;
   align-items: center;
 }
-@media screen and (max-width: 850px) {
+@media (max-width: 850px) {
   .title {
     font-size: 20px;
   }
 }
-@media screen and (max-width: 750px) {
+@media (max-width: 750px) {
   .title-extension {
     display: none;
   }
 }
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   .title {
     font-size: 26px;
   }
@@ -206,4 +206,16 @@ footer a {
   font-weight: 400;
   color: #064A2A;
   text-decoration: none;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #041d11;
+    color: #89aa89;
+  }
+  .contacts a,
+  footer a {
+    color: #89aa89;
+  }
 }
